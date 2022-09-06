@@ -1,8 +1,3 @@
-def check(text):
-    if not (text.isalpha() or text.isdigit() or text.isspace()):
-        print("false")
-        
-    else:
-        print("true")
+from stc import check
 
-check("") #put thee text or the var for the str input :)
+check("hi") #put thee text or the var for the str input :)
